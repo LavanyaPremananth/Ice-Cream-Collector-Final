@@ -153,10 +153,10 @@ function startGame(){
 
 function preload() {
   soundFormats('wav');
-    levelComplete = loadSound('assets/level-complete.wav');
-    gamePoints = loadSound('assets/collectables.wav');
-    jump = loadSound('assets/jump.wav');
-    canyonFall = loadSound('assets/canyon-fall.wav');
+    levelComplete = loadSound('assets/level-complete');
+    gamePoints = loadSound('assets/collectables');
+    jump = loadSound('assets/jump');
+    canyonFall = loadSound('assets/canyon-fall');
 }
 
 
