@@ -47,6 +47,16 @@ var isPlummeting;
 
 var mySound;
 
+function preload() {
+  soundFormats('wav');
+	
+  // Correct file paths and extensions
+  levelComplete = loadSound('assets/level-complete.wav');
+  gamePoints = loadSound('assets/collectables.wav');
+  jump = loadSound('assets/jump.wav');
+  canyonFall = loadSound('assets/canyon-fall.wav');
+}
+
 function setup(){
     createCanvas(1024,576);
     floorPos_y = height * 3/4;
@@ -150,16 +160,6 @@ function startGame(){
     gameChar_world_x = gameChar_x - scrollPos;
 
 //-------------------------------------------------------------------------------------
-
-function preload() {
-  soundFormats('wav');
-    levelComplete = loadSound('assets/level-complete');
-    gamePoints = loadSound('assets/collectables');
-    jump = loadSound('assets/jump');
-    canyonFall = loadSound('assets/canyon-fall');
-}
-
-
 
 function draw(){
         
