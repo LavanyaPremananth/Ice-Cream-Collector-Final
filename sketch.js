@@ -733,9 +733,9 @@ function initCollectables(){
 function isCollectableOnCanyon(collectable){
     var onCanyon = false;
     for(i in canyons){
-        var x1_limit = canyons[i].x_pos  - collectables.size;
+        var x1_limit = canyons[i].x_pos - collectable.size;
         var x2_limit = canyons[i].x_pos + canyons[i].width;
-        if(collectables.x_pos > x1_limit && collectables.x_pos < x2_limit){
+        if(collectable.x_pos > x1_limit && collectable.x_pos < x2_limit){
             onCanyon = true;
             break;
         }
