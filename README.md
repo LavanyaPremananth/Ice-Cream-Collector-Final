@@ -21,7 +21,7 @@ This game features a character navigating through a snowy environment collecting
 - **Ice Cream Collection:** Guide your character to collect as many ice creams as possible.
 - **Obstacle Avoidance:** Dodge obstacles and challenges that may appear on the screen.
 - **Responsive Controls:** Play with ease using arrow keys or mouse controls.
-- 
+  
 ## Technologies Used
 
 - [p5.js](https://p5js.org/) - A JavaScript library for creative coding.
