@@ -4,7 +4,11 @@ Welcome to the Ice Cream Collector Game! This simple game application is created
 
 ## Demo
 
-Check out the live demo [here](https://ice-cream-collector-final.vercel.app/).
+Check out the live demo of the game: [Ice Cream Collector Game](https://ice-cream-collector-final.vercel.app/).
+
+## Description
+
+This game features a character navigating through a snowy environment collecting ice cream cones. The project uses p5.js for the game's graphics and animation.
 
 ## How to Play
 
