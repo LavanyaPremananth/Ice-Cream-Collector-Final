@@ -35,4 +35,4 @@ To run the game locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ice-cream-collector.git
+   https://github.com/LavanyaPremananth/IceCreamCollector-Final.git
